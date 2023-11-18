@@ -1,0 +1,26 @@
+name: MineagePunishments
+version: 1.1.0
+main: MineagePunishments\Base
+api: 5.0.0
+depend:
+  - DEVirion
+  - MineageCore
+permissions:
+  mineage.command.acban:
+    default: op
+  mineage.command.ban:
+    default: op
+  mineage.command.unban:
+    default: op
+  mineage.command.blacklist:
+    default: op
+  mineage.command.unblacklist:
+    default: op
+  mineage.command.mute:
+    default: op
+  mineage.command.unmute:
+    default: op
+  mineage.command.phistory:
+    default: op
+  mineage.command.alias:
+    default: op

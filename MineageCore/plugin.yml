@@ -1,0 +1,5 @@
+name: MineageCore
+version: 1.6.0
+main: Mineage\MineageCore\MineageCore
+api: 5.0.0
+src-namespace-prefix: Mineage\MineageCore

@@ -1,0 +1,57 @@
+#### Config SETUP:
+#
+### Server Selector
+#
+# ui:
+#   title: "§c§lServer Selector"
+#   groups-content: "§eSelect a region to join!"
+#   servers-content: "§eSelect a server to join!"
+#
+# servers:
+#   Group1:
+#     Server1_Group1:
+#       ip: example.com
+#       port: 25565
+#     Server2_Group1:
+#       ip: example.com
+#       port: 25565
+#   Group2:
+#     ServerGroup2:
+#       ip: example.com
+#       port: 25565
+#
+# item:
+#   id: "nether_star"
+#   name: "§r§c§lServer Selector"
+#   lore: "§r§7(Hint: Click to open the Server Selector)"
+#
+
+ui:
+  title: "§c§lServer Selector"
+  groups-content: "§eSelect a region to join!"
+  servers-content: "§eSelect a server to join!"
+
+servers:
+  Asia:
+    AS1:
+      ip: server.as
+      port: 19132
+    AS2:
+      ip: server.as
+      port: 19133
+  Europe:
+    EU1:
+      ip: server.eu
+      port: 19132
+  Africa:
+    ip: "server.af"
+    port: 19132
+
+item:
+  id: "nether_star"
+  name: "§r§c§lServer Selector"
+  lore: "§r§7(Hint: Click to open the Server Selector)"
+
+message:
+  # Message when player try join when server offline
+  offlineservermessage: "You cannot go to offline server"

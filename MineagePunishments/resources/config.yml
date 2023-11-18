@@ -1,0 +1,75 @@
+mysql:
+  host: "127.0.0.1"
+  username: "TestUsername"
+  password: "TestPW"
+  schema: "Main"
+
+title-screen-punished-message-appeal: "&7Appeal on discord.gg/mineagenetwork"
+title-screen-banned-message: "&cYou are banned from Mineage"
+title-screen-blacklisted-message: "&cYou are blacklisted from Mineage"
+title-screen-just-banned-message: "&cYou have been banned from Mineage"
+title-screen-just-blacklisted-message: "&cYou have been blacklisted from Mineage"
+just-banned-public-message: "&b@staff &chas banned &4@player &cfrom Mineage for &7@reason"
+just-blacklisted-public-message: "&b@staff &chas blacklisted &4@player &cfrom Mineage"
+
+autoclick-alert-message: "&cYou are clicking over 20 cps. Make sure to click under this limit to avoid being kicked."
+autoclick-kick-message: "&cYou better lower the cps"
+anticheat-broadcast-message: "&c[Lumine] @player got caught cheating and was suspended from the network."
+
+ban-reasons:
+  "Cheating":
+    "Days": 14
+    "Hours": 0
+    aliases:
+      - hack
+      - hacker
+      - cheat
+      - cheats
+      - cheater
+  "Admitted Cheating":
+    "Days": 3
+    "Hours": 0
+    aliases:
+      - admit
+      - admitcheat
+      - admitcheats
+  "Refusing SS":
+    "Days": 7
+    "Hours": 0
+    aliases:
+      - ss
+      - rss
+      - refusingss
+      - refusess
+      - refuse
+  "Exploit Abuse":
+    "Days": 1
+    "Hours": 0
+    aliases:
+      - bugabuse
+      - exploitabuse
+      - exploit
+  "Interrupting":
+    "Days": 0
+    "Hours": 1
+    aliases:
+      - interruption
+      - interference
+  "Teaming":
+    "Days": 0
+    "Hours": 1
+    aliases:
+      - team
+      - 2v1
+  "Camping":
+    "Days": 0
+    "Hours": 1
+    aliases:
+      - camp
+mute-reasons:
+  "Excessive Toxicity":
+    "Days": 0
+    "Hours": 1
+    aliases:
+      - toxic
+      - toxicity

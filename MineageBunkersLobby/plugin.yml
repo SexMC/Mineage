@@ -1,0 +1,15 @@
+---
+name: MineageBunkersLobby
+version: 1.0.0
+main: MineageBunkersLobby\MineageBunkersLobby
+api: 5.0.0
+depend:
+  - DEVirion
+permissions:
+  mineage.bunkers.command.ping:
+    default: true
+  mineage.bunkers.command.vote:
+    default: true
+  mineage.bunkers.command.party:
+    default: true
+...

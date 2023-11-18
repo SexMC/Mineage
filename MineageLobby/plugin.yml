@@ -1,0 +1,9 @@
+name: MineageLobby
+main: GrosserZak\MineageLobby\Main
+api: 5.0.0
+version: 1.1.0
+author: GrosserZak
+permissions:
+  ui.open:
+    description: Open the Server Selector UI
+    default: op

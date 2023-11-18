@@ -1,0 +1,5 @@
+name: PacketLimiter
+version: 1.1.0
+api: 5.0.0
+main: AkmalFairuz\PacketLimiter\Main
+author: AkmalFairuz

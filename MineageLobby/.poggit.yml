@@ -1,0 +1,7 @@
+projects:
+  MineageLobby:
+    libs:
+      - src: supercrafter333/FormAPI/libFormAPI
+        version: ^2.1.0
+      - src: jasonw4331/libpmquery/libpmquery
+        version: ^1.0.0

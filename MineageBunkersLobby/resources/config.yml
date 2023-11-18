@@ -1,0 +1,71 @@
+---
+mysql:
+  host: "127.0.0.1"
+  username: "TestUsername"
+  password: "TestPW"
+  schema: "Main"
+
+world: "world"
+
+servers:
+  mb-s1:
+    address: 127.0.0.1
+    port: 19142
+  mb-s2:
+    address: 127.0.0.1
+    port: 19152
+  mb-s3:
+    address: 127.0.0.1
+    port: 19162
+
+items:
+  spawn:
+    join-queue: "&r&aJoin Queue"
+    leave-queue: "&r&cLeave Queue"
+    rejoin-game: "&r&6Rejoin Game"
+    spectate: "&r&eSpectate"
+  pre-game:
+    join-blue-team: "&r&9Blue"
+    join-red-team: "&r&cRed"
+    join-yellow-team: "&r&eYellow"
+    join-green-team: "&r&aGreen"
+
+scoreboards:
+  online: # sent to everyone online and those queued for a pre-game
+    title: "&l&3Mineage &r&7| &fBunkers"
+    lines:
+      first-divider: "&7---------------------"
+      online: "§3Online: §f@v_online"
+      in-game: "§3In Game: §f@v_in-game"
+      in-queue: "§3In Queue: §f@v_in-queue"
+      your-party: "§3Your Party: §f@v_your-party"
+      queued: "@v_queued"
+      final-divider: "&7---------------------"
+  voting: # in a pre-game that is in the process of voting for a map
+    title: "&l&3Mineage &r&7| &fBunkers"
+    lines:
+      first-divider: "&7---------------------"
+      team: "§3Team: §f@v_team"
+      map: "§3Map: §7@v_map"
+      map-votes: "§l§3Map Votes"
+      map-votes-classic: "§8 - &7Classic: &a@v_classic-votes"
+      how-to-vote: "&7Use /vote <map> to vote!"
+      voting-end: "&3Voting Ends&7: @v_voting-ends"
+      final-divider: "&7---------------------"
+  ready: # in a pre-game that is about to start and has enough players to do so
+    title: "&l&3Mineage &r&7| &fBunkers"
+    lines:
+      first-divider: "&7---------------------"
+      team: "§3Team: §f@v_team"
+      map: "§3Map: §7@v_map"
+      start-in: "&3Starts In&7: @v_starts-in"
+      final-divider: "&7---------------------"
+  waiting: # in a pre-game that is about to start, or is in voting, but the game does not have enough players to start
+    title: "&l&3Mineage &r&7| &fBunkers"
+    lines:
+      first-divider: "&7---------------------"
+      team: "§3Team: §f@v_team"
+      map: "§3Map: §7@v_map"
+      waiting-for: "&3Waiting For&7: @v_waiting-for"
+      final-divider: "&7---------------------"
+---

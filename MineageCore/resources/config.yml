@@ -1,0 +1,4 @@
+---
+lobby-world: "world"
+teleport-to-lobby-on-join: false
+...
